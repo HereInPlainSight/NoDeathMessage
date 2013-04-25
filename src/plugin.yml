@@ -1,3 +1,8 @@
 name: NoDeathMessage
 version: 1.0.2
 main: com.etherelements.bukkit.NoDeathMessage.NoDeathMessage
+
+permissions:
+	nodeathmessage.nomessage:
+		description: Allows the user to die in peace and quiet.
+		default: true
